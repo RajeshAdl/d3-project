@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+}
+input[type=checkbox] {
+	padding: 5px;
+}
+#route-list {
+	overflow: scroll;
+	height: 800px;
+	padding: 20px;
+	font-size: 16px;
+}
+#route-list>span {
+	padding: 5px;
+	display: block;
+}
+#route-list>span:hover {
+	background-color: rgb(3, 53, 53);
+	color: white;
+}
